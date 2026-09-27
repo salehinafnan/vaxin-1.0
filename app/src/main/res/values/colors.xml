@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- brand orange used for titles, buttons and highlights -->
+    <color name="dorange">#FFE65100</color>
+    <color name="dorange_light">#FFFF9800</color>
+    <!-- light grey dividers and borders -->
+    <color name="lgrey">#FFD6D6D6</color>
+    <!-- body text -->
+    <color name="text">#FF37474F</color>
+    <color name="bg">#FFF5F5F5</color>
+    <color name="circle_orange">#FFFF7043</color>
+    <color name="circle_blue">#FF42A5F5</color>
+    <color name="circle_green">#FF66BB6A</color>
+    <color name="circle_purple">#FFAB47BC</color>
+    <color name="circle_teal">#FF26A69A</color>
+    <color name="circle_red">#FFEF5350</color>
+    <color name="ok_green">#FF43A047</color>
+    <color name="warning_amber">#FFFB8C00</color>
+    <color name="danger_red">#FFE53935</color>
+</resources>

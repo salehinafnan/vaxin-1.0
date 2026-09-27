@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Vaxin" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/dorange</item>
+        <item name="colorPrimaryVariant">#FFBF360C</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/dorange_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

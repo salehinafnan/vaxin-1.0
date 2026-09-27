@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- only needed to save downloaded vaccine cards on Android 9 and older -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Vaxin">
+
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Districtsearch" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".UpN" />
+        <activity android:name=".adminaction1" />
+        <activity android:name=".admindate" />
+        <activity android:name=".adminhosembentry" />
+        <activity android:name=".adminlogin" />
+        <activity android:name=".adminothervaccine" />
+        <activity android:name=".adminselect" />
+        <activity android:name=".afterlogin" />
+        <activity android:name=".ambulancectg" />
+        <activity android:name=".ambulancedhaka" />
+        <activity android:name=".bmi" />
+        <activity android:name=".bmicalc" />
+        <activity android:name=".bottomadminselect" />
+        <activity android:name=".bottomadminshowvacdate" />
+        <activity android:name=".bottomshowregmembers" />
+        <activity android:name=".covidstatus" />
+        <activity android:name=".dailystarweb" />
+        <activity android:name=".datesearch" />
+        <activity android:name=".je" />
+        <activity android:name=".kalerkantho" />
+        <activity android:name=".login" />
+        <activity android:name=".manabzaminweb" />
+        <activity android:name=".midadminduty" />
+        <activity android:name=".midadminselect" />
+        <activity android:name=".nayadigantaweb" />
+        <activity android:name=".newsdesk" />
+        <activity android:name=".nidsearch" />
+        <activity android:name=".othervaccine" />
+        <activity android:name=".othervaccineregistration" />
+        <activity android:name=".prothomaloweb" />
+        <activity android:name=".rabies" />
+        <activity android:name=".ri" />
+        <activity android:name=".showHA" />
+        <activity android:name=".showdataofothervacs" />
+        <activity android:name=".updatedb" />
+        <activity android:name=".updatevaccinedateseconddose" />
+        <activity android:name=".updatevaccinedatewhengiven" />
+        <activity android:name=".yellowfever" />
+
+    </application>
+
+</manifest>
