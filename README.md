@@ -65,7 +65,7 @@ Bugs fixed along the way:
 - **Admin lists.** They displayed every user's password. They no longer do.
 - **Crashes.**
   - The _call admin_ button used `ACTION_CALL` without the `CALL_PHONE` runtime permission and crashed on every tap. It now opens the dialer.
-  - Date search, first-dose entry, second-dose entry and date assignment crashed with a `NullPointerException` when no date (or no NID search) had been made first. They now show a message instead.
+  - Date search, first-dose entry and second-dose entry crashed with a `NullPointerException` when no date (or no NID search) had been made first. They now show a message instead.
   - Login crashed when a user record had no password.
 - **BMI categories.** Values in the gaps between bands, such as exactly 16, 16.95, 25 or 29.5, all fell through to _Obese_. The bands now follow the WHO cut-offs (16 / 17 / 18.5 / 25 / 30), and the BMI is shown to one decimal place.
 - **Validation.** The other-vaccine form's mobile and birth-year length checks used an impossible condition (`x > 11 && x < 11`), so they never ran.
